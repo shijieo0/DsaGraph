@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class GraphDFS {
     private Graph graph;
-    private  boolean[] visited;
+    private boolean[] visited;
     private ArrayList<Integer> pre = new ArrayList<>();
     private ArrayList<Integer> post = new ArrayList<>();
 

@@ -41,7 +41,6 @@ public class AdjMatrix {
                 adj[a][b] = 1;
                 adj[b][a] = 1;
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
